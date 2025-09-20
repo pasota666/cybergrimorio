@@ -1,11 +1,94 @@
+<!doctype html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cybergrimorio : Index</title>
-</head>
-	<body>
-		<h1>Cybergrimorio</h1>
-		<p>Prueba</p>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Sitio con Artículos Markdown</title>
+    <!--<link rel="stylesheet" href="styles.css" /-->
+    <link rel="stylesheet" href="darksolar.css" />
+    <!--
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css"
+    />
+    -->
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo">https://pasota666.github.io/cybergrimorio/</div>
+        <nav>
+          <ul>
+            <li><a href="#" data-page="home">Indice</a></li>
+            <li><a href="#" data-page="github-pages">Acerca de</a></li>
+            <!--
+            <li><a href="#" data-page="markdown-guia">Markdown</a></li>
+            <li><a href="#" data-page="web-development">Desarrollo Web</a></li>
+            -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <main>
+        <!--<h2 id="page-title">Artículos Destacados</h2>-->
+        <div id="content" class="article-list">
+          <div class="loading">Cargando contenido...</div>
+        </div>
+      </main>
+
+      <!--
+      <aside>
+        <h3>Acerca de</h3>
+        <p>
+          Bienvenido a nuestro blog. Todos nuestros artículos están escritos en
+          Markdown.
+        </p>
+
+        <h3>Artículos Populares</h3>
+        <ul>
+          <li>
+            <a href="#" data-page="github-pages">Cómo usar GitHub Pages</a>
+          </li>
+          <li><a href="#" data-page="markdown-guia">Guía de Markdown</a></li>
+          <li>
+            <a href="#" data-page="web-development">Desarrollo Web Moderno</a>
+          </li>
+        </ul>
+
+        <h3>Suscríbete</h3>
+        <p>Recibe las últimas actualizaciones en tu correo.</p>
+        <form>
+          <input
+            type="email"
+            placeholder="Tu email"
+            style="padding: 0.5rem; width: 100%; margin-bottom: 0.5rem"
+          />
+          <button
+            type="submit"
+            style="
+              background: #6e8efb;
+              color: white;
+              border: none;
+              padding: 0.5rem 1rem;
+              width: 100%;
+              cursor: pointer;
+            "
+          >
+            Suscribirse
+          </button>
+        </form>
+      </aside>
+      -->
+    </div>
+
+    <footer>
+      <p>&copy; pasota666 - Cutresoft</p>
+    </footer>
+
+    <!-- Cargar marked.js para convertir Markdown a HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
