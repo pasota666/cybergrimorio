@@ -5,6 +5,7 @@
   - [Crear pendrive de instalación de Debian desde Windows](pendrive_debian_desde_windows.md)
   - [Crear pendrive de instalación de Debian desde Debian](pendrive_debian_desde_debian.md)
 - **Configuración**
+  - [Activar repositorios contrib y non-free](repositorios_contrib_non-free.md)
   - [Instalar controladores propietarios de NVIDIA](drivers_nvidia.md)
 
   <!--
