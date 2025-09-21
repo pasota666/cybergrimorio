@@ -1,6 +1,6 @@
 # Índice de artículos
 
-## Debian
+## Debian GNU/Linux
 - **Instalación**
   - [Crear pendrive de instalación de Debian desde Windows](pendrive_debian_desde_windows.md)
   - [Crear pendrive de instalación de Debian desde Debian](pendrive_debian_desde_debian.md)
