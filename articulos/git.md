@@ -1,0 +1,91 @@
+# Git y GitHub
+
+# Introducción
+
+Git es un sistema de control de versiones, básicamente lleva un control de los cambios que se efectuan en ficheros. Con Git es posible desarrollar aplicaciones entre varios colaboradores y cuyo código está subido en un repositorio de forma sencilla.
+
+GitHub es una web que permite almacenar estos repositorios de código on-line.
+
+# Instalación
+
+```
+# apt-get install git
+```
+
+# Definir usuario y email
+
+Antes de usar git debemos definir nuestro usuario y correo:
+
+```
+$ git config --global user.name "usuario"
+$ git config --global user.email "tu-email-real@ejemplo.com"
+```
+
+Comprobamos que los cambios se han realizado:
+
+```
+$ git config --list
+$ git config user.name
+$ git config user.email
+```
+
+# Autenticar mediante una clave SSH
+
+Existen varias maneras de autenticarse en GitHub, quizás la más cómoda sea a través de una clave SSH que identificará tu equipo y no pedirá más login ni passwords una vez esté registrada en el proyecto.
+
+## Generar clave SSH si no tienes
+```
+$ ssh-keygen -t ed25519 -C "tu-email@ejemplo.com"
+```
+## Añadir clave al agente SSH
+```
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_ed25519
+```
+## Copiar clave pública y añadirla a GitHub
+```
+$ cat ~/.ssh/id_ed25519.pub
+```
+Copia lo que devuelve "cat" y pégalo en GitHub: Settings → SSH and GPG keys → New SSH key
+
+## Cambiar remote a SSH
+
+```
+$ git remote set-url origin git@github.com:tu-usuario/tu-repositorio.git
+```
+
+## Verificar
+
+```
+$ git remote -v
+```
+
+# Como iniciar un repositorio con Git en GitHub
+
+Básicamente, existen dos formas de iniciar un repositorio:
+
+- Método 1: Creando el repositorio en local y luego subiéndolo a GitHub.
+- Método 2: Crear el repositorio en GitHub y luego clonándolo en local.
+
+# Método 2: Clonar el repositorio en local
+
+Con este método, descargaremos el repositorio para poder trabajar con él, después subiremos los cambios. Es también el método que usaremos cuando queramos trabajar con un repositorio ya existente.
+
+```
+$ git clone <url_del_repositorio.git>
+```
+
+# Comandos básicos para subir el código al repositorio
+
+Básicamente, para usar git desde línea de comandos, debemos hacer lo siguiente:
+
+```
+$ git add .
+$ git commit -m "Mensaje del commit"
+$ git push origin main
+```
+
+El comando "add ." añade todos los ficheros, candidatos para un "commit".
+El comando "commit" guarda los cambios.
+El comando "push" sube los ficheros modificados con el "commit" al repositorio de Github.
+
