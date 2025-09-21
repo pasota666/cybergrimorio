@@ -220,11 +220,12 @@ aside {
 
 .markdown-body ul,
 .markdown-body ol {
+  margin: 1em 0;
   padding-left: 2em;
 }
 
 .markdown-body li {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
 }
 
 .markdown-body hr {
