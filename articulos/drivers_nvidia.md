@@ -4,7 +4,7 @@ Testeado en Debian GNU/Linux 13 (Trixie)
 
 ## Paso 1. Activar repositorios "contrib" y "non-free"
 
-Seguir los pasos [aquí]( https://pasota666.github.io/cybergrimorio/)
+Seguir los pasos [aquí](https://pasota666.github.io/cybergrimorio/#repositorios_contrib_non-free.md)
 
 ## Paso 2. Detectar nuestra tarjeta
 
