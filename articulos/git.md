@@ -38,6 +38,8 @@ Existen varias maneras de autenticarse en GitHub, quizás la más cómoda sea a 
 $ ssh-keygen -t ed25519 -C "tu-email@ejemplo.com"
 ```
 ## Añadir clave al agente SSH
+
+Se puede dejar sin passphrase si el ordenador está bien protegido.
 ```
 $ eval "$(ssh-agent -s)"
 $ ssh-add ~/.ssh/id_ed25519
@@ -46,12 +48,21 @@ $ ssh-add ~/.ssh/id_ed25519
 ```
 $ cat ~/.ssh/id_ed25519.pub
 ```
-Copia lo que devuelve "cat" y pégalo en GitHub: Settings → SSH and GPG keys → New SSH key
+Copia lo que devuelve "cat" y pégalo en GitHub: Settings → Security > Deploy Keys
+
+Dar permiso para hacer "push" y añadirlo.
 
 ## Cambiar remote a SSH
 
 ```
 $ git remote set-url origin git@github.com:tu-usuario/tu-repositorio.git
+```
+
+NOTA: Si estamos usando un directorio de red o compartido, Git dirá que no es un directorio seguro, pero podemos saltar esa protección haciendo:
+
+```
+$ git config --global --add safe.directory /aux/Cutresoft/cybergrimorio
+
 ```
 
 ## Verificar
@@ -67,9 +78,16 @@ Básicamente, existen dos formas de iniciar un repositorio:
 - Método 1: Creando el repositorio en local y luego subiéndolo a GitHub.
 - Método 2: Crear el repositorio en GitHub y luego clonándolo en local.
 
+# Método 1: Crear el repositorio en local
+
 # Método 2: Clonar el repositorio en local
 
 Con este método, descargaremos el repositorio para poder trabajar con él, después subiremos los cambios. Es también el método que usaremos cuando queramos trabajar con un repositorio ya existente.
+
+Lo primero es crear el repositorio en GitHub:
+- Create New > New Repository
+
+Después lo clonamos en local:
 
 ```
 $ git clone <url_del_repositorio.git>
