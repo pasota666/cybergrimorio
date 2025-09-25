@@ -1,6 +1,6 @@
 # Crear pendrive de instalación de Debian desde Windows
 
-Testeado en Debian GNU/Linux 13 (Trixie)
+Testeado en Windows 11
 
 ## Paso 1. Descargar Rufus
 
@@ -25,6 +25,8 @@ Desconectar cualquier disco USB que tengamos por precaución y enchufar el pendr
 Abrir Rufus. Seleccionar la ISO. Seleccionar MBR (BIOS, ordenadores antiguos) o GPT (UEFI, ordenadores modernos) y hacer click en «Empezar». Si pide descargar syslinux o cualquier otra cosa, aceptar.
 
 ![Image](img/2.png)
+
+**ATENCIÓN**: Seleccionar el esquema de partición y el sistema de destino es importante ya que las imágenes de instalación fallarán si nuestro disco no tiene el sistema correspondiente.
 
 ## Paso 5. Terminado
 

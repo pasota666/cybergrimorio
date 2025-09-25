@@ -4,8 +4,9 @@
 - **Instalación**
   - [Crear pendrive de instalación de Debian desde Windows](pendrive_debian_desde_windows.md)
   - [Crear pendrive de instalación de Debian desde Debian](pendrive_debian_desde_debian.md)
+  - [Crear pendrive de instalación de Windows desde Windows](pendrive_windows_desde_windows.md)
   - [Instalación de Debian en un portátil antiguo con encriptación](instalacion_debian_portatil_antiguo.md)
-  - [Instalación de Debian y Windows en un portátil moderno con encriptación (WIP)](instalacion_debian_dual.md)
+  - [Instalación de Debian y Windows en un portátil moderno con encriptación](instalacion_debian_dual.md)
 - **Configuración**
   - [Configurar sudo](sudo.md)
   - [Activar repositorios contrib y non-free](repositorios_contrib_non-free.md)
