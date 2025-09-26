@@ -4,10 +4,10 @@ Testeado en Debian GNU/Linux 13 (Trixie)
 
 # Paso 1. Reunir información
 
-- Modelo portátil o placa: Gygabite G5 MD
+- Modelo portátil o placa:
 - CPU: Intel Core i5 11400H 2.70 GHz
 - RAM: 16GB
-- Video: Nvidia GeForce RTX 3050 Ti / Intel UHD
+- Video: 
 - Disco: 500 GB (476 GiB)
 - Tipo de BIOS: UEFI
 - Wireless: SSID y clave de la red wifi si es necesario.
@@ -115,9 +115,11 @@ Creamos:
     - swap
     - /
     
-(Ver instalación en portátil antiguo, es igual)
+(Ver [instalación en portátil antiguo](https://pasota666.github.io/cybergrimorio/instalacion_debian_portatil_antiguo.md), es igual)
 
 Con esto tenemos una partición /boot sin encriptar junto con el sistema linux encriptado. Esto puede ser vulnerable a determinados ataques en el caso de que tengan acceso físico a nuestro PC, por tanto se puede encriptar también la partición de arranque (ver [aquí](boot_crypt.md)).
+
+**NOTA**: Los nombres de las particiones en un disco NVMe son nvme0n1p1, p2, p3...etc. El disco es /dev/nvme0n1.
 
 # Finalizar instalación
 

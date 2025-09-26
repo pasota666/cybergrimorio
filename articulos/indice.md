@@ -11,17 +11,19 @@
   - [Configurar sudo](sudo.md)
   - [Activar repositorios contrib y non-free](repositorios_contrib_non-free.md)
   - [Instalar controladores propietarios de NVIDIA](drivers_nvidia.md)
-  - [Encriptar la partición /boot](boot_crypt.md)
+  - [Encriptar la partición /boot (WIP)](boot_crypt.md)
 - **Programas**
   - [KDE (WIP)](debian_kde.md)
   - [Firefox](debian_firefox.md)
   - [Thunderbird](debian_thunderbird.md)
   - [Dropbox (WIP)](debian_dropbox.md)
   - [Kate (WIP)](debian_kate.md)
+  - [Wine (WIP)](debian_wine.md)
+  - [Dosbox (WIP)](debian_dosbox.md)
   
 ## Desarrollo
 - **Git**
-  - [Configuración y uso básico](git.md)
+  - [Configuración y uso básico (WIP)](git.md)
 - **C++**
 - **Gemix**
 
