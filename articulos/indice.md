@@ -6,12 +6,12 @@
   - [Crear pendrive de instalación de Debian desde Debian](pendrive_debian_desde_debian.md)
   - [Crear pendrive de instalación de Windows desde Windows](pendrive_windows_desde_windows.md)
   - [Instalación de Debian en un portátil antiguo con encriptación](instalacion_debian_portatil_antiguo.md)
-  - [Instalación de Debian y Windows en un portátil moderno con encriptación](instalacion_debian_dual.md)
+  - [Instalación dual de Debian y Windows en un portátil moderno con encriptación](instalacion_debian_dual.md)
 - **Configuración**
   - [Configurar sudo](sudo.md)
   - [Activar repositorios contrib y non-free](repositorios_contrib_non-free.md)
   - [Instalar controladores propietarios de NVIDIA](drivers_nvidia.md)
-  - [Encriptar la partición /boot (WIP)](boot_crypt.md)
+  - [Encriptar la partición boot](boot_crypt.md)
 - **Programas**
   - [KDE (WIP)](debian_kde.md)
   - [Firefox](debian_firefox.md)

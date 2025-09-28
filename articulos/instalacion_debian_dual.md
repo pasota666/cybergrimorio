@@ -1,4 +1,4 @@
-# Instalación dual de Debian y Windows en un portátil antiguo con encriptación (WIP)
+# Instalación dual de Debian y Windows en un portátil antiguo con encriptación
 
 Testeado en Debian GNU/Linux 13 (Trixie)
 
