@@ -23,10 +23,10 @@
   - [Instalar controladores propietarios de NVIDIA](drivers_nvidia.md)
   - [Encriptar la partición boot](boot_crypt.md)
   - [Directorio bin local](home_bin.md)
-  - [Estado de la batería](debian_bateria.md)
+  - [Estado de la batería (WIP)](debian_bateria.md)
   - [Estado del disco (WIP)](debian_disco.md)
   - [Estado de la memoria (WIP)](debian_memoria.md)
-  - [Temperaturas de CPU y otros elementos (WIP)](debian_temperaturas.md)
+  - [Temperaturas de CPU y otros elementos (WIP)](sensors.md)
 
   
 - **Programas**
@@ -38,8 +38,8 @@
   - [Wine](debian_wine.md)
   - [Dosbox](debian_dosbox.md)
   - [Steam](debian_steam.md)
-  - [KDE Secrets](debian_kdesecrets.md)
-  - [Emule](debian_emule.md)
+  - [KDE Secrets (WIP)](debian_kdesecrets.md)
+  - [Emule (WIP)](debian_emule.md)
   
 ## Windows 11
 - **Instalación**
@@ -52,15 +52,18 @@
 ## Desarrollo
 - **Git**
   - [Configuración y uso básico](git.md)
-  - [GitHub Pages](github_pages.md)
+  - [GitHub Pages (WIP)](github_pages.md)
 - **C/C++/Qt**
-  - [Notas sobre C++](cpp_notas.md)
-  - [Notas sobre Qt](qt_notas.md)
+  - [Instalación y configuración de Qt Creator (WIP](debian_qt.md)
+  - [Notas sobre C++ (WIP](cpp_notas.md)
+  - [Notas sobre Qt (WIP](qt_notas.md)
 - **Gemix**
   - [Resumen del lenguaje (WIP)](gemix_resumen.md)
   - [Instalación en Debian (WIP)](gemix_debian.md)
 - **Markdown**
-  - [Resumen de Markdown](markdown.md)
+  - [Resumen de Markdown (WIP](markdown.md)
+- **JS**
+  - [NodeJS (WIP)](node.md)
 
 ## Consolas
 - **Wii**

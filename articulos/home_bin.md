@@ -14,7 +14,7 @@ En nuestro directorio personal, tenemos dos archivos de inicialización del shel
     - Se ejecuta cada vez al iniciar sesión.
     - Se usa para variables de entorno como PATH.
     
-Cuando abrimos una terminal en KDE, sólo se ejecuta bashrc, cuando hacemos un login en modo texto, se ejecutan ambos.
+Cuando abrimos una terminal en KDE, sólo se ejecuta bashrc, ya que profile se ha ejecutado cuando se inicia la sesión. Cuando hacemos un login en modo texto, se ejecutan ambos.
 
 En .profile ya se incluye el directorio ~/bin en caso de existir:
 
