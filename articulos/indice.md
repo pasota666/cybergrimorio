@@ -1,10 +1,20 @@
 # Índice de artículos
 
+## Informática
+- **Teoría**
+  - [BIOS y UEFI (WIP)](bios_uefi.md)
+  - [Unidades de información (GB y GiB) (WIP)](unidades.md)
+- **Correo**
+  - [Aplicar filtros en Gmail (WIP)](gmail.md)
+
 ## Debian GNU/Linux
+- **Teoría**
+  - [Proceso de arranque(WIP)](debian_arranque.md)
+  - [Servicios (WIP)](debian_servicios.md)
+  - [Comandos básicos (WIP)](debian_comandos.md)
 - **Instalación**
   - [Crear pendrive de instalación de Debian desde Windows](pendrive_debian_desde_windows.md)
   - [Crear pendrive de instalación de Debian desde Debian](pendrive_debian_desde_debian.md)
-
   - [Instalación de Debian en un portátil antiguo con encriptación](instalacion_debian_portatil_antiguo.md)
   - [Instalación dual de Debian y Windows en un portátil moderno con encriptación](instalacion_debian_dual.md)
 - **Configuración**
@@ -13,6 +23,12 @@
   - [Instalar controladores propietarios de NVIDIA](drivers_nvidia.md)
   - [Encriptar la partición boot](boot_crypt.md)
   - [Directorio bin local](home_bin.md)
+  - [Estado de la batería](debian_bateria.md)
+  - [Estado del disco (WIP)](debian_disco.md)
+  - [Estado de la memoria (WIP)](debian_memoria.md)
+  - [Temperaturas de CPU y otros elementos (WIP)](debian_temperaturas.md)
+
+  
 - **Programas**
   - [KDE](debian_kde.md)
   - [Firefox](debian_firefox.md)
@@ -20,48 +36,36 @@
   - [Dropbox](debian_dropbox.md)
   - [Kate](debian_kate.md)
   - [Wine](debian_wine.md)
-  - [Dosbox (WIP)](debian_dosbox.md)
-  - [Steam (WIP)](debian_steam.md)
+  - [Dosbox](debian_dosbox.md)
+  - [Steam](debian_steam.md)
+  - [KDE Secrets](debian_kdesecrets.md)
+  - [Emule](debian_emule.md)
   
 ## Windows 11
 - **Instalación**
-  - Comandos útiles partdisk
   - [Crear pendrive de instalación de Windows desde Windows](pendrive_windows_desde_windows.md)
-  - Debloating
+  - [Comandos útiles partdisk (WIP)](partdisk.md)
+- **Configuración**
+  - [Activación (WIP)](win11-activacion.md)
+  - [Debloating (WIP)](win-debloating.md)
   
 ## Desarrollo
 - **Git**
   - [Configuración y uso básico](git.md)
-- **C++**
+  - [GitHub Pages](github_pages.md)
+- **C/C++/Qt**
+  - [Notas sobre C++](cpp_notas.md)
+  - [Notas sobre Qt](qt_notas.md)
 - **Gemix**
-
-  <!--
-## Informática
-- [BIOS y UEFI](proximamente.md)
-- [Gigabytes y Gibibytes](proximamente.md)
-
-## Git
-- Funcionamiento básico
-- Claves SSH
-- Github
-- Github Pages
-
-## Programación
-- **C/C++**
-- **Gemix**
+  - [Resumen del lenguaje (WIP)](gemix_resumen.md)
+  - [Instalación en Debian (WIP)](gemix_debian.md)
 - **Markdown**
-- **Qt**
+  - [Resumen de Markdown](markdown.md)
 
-## Wii
-- **Modding y emulación**
-  - [Prepara un pendrive para Wii Homebrew]
-  - [Cómo convertir RVZ a ISO](rvz-a-iso.md)
-  - [Instalar Homebrew Channel](homebrew-channel.md)
-  - [Juegos caseros Wii](juegos-caseros-wii.md)
+## Consolas
+- **Wii**
+  - [Crear pendrive (WIP)](wii_pendrive.md)
+  - [Convertir RVZ a ISO (WIP)](wii_iso.md)
+  - [Transferir ISO (WIP)](wii_transferir.md)
   
-  
-## TO-DO
-- Kate: LPS, mantener archivos abiertos, GIT.
-- Mardown: Tablas.
-- Cheatsheets imprimibles pdf: comandos básicos linux, markdown, etc.
--->
+## Cheatsheets

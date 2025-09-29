@@ -30,14 +30,8 @@ La unidad C: se crea en ~/.wine/drive_c
 Podemos moverla a otros sitio donde tengamos más espacio:
 
 ```
-# Mover solo el directorio drive_c
-mv ~/.wine/drive_c /aux/Wine/
-
-# Crear el directorio .wine si no existe
-mkdir -p ~/.wine
-
-# Enlace simbólico solo para drive_c
-ln -s /aux/Wine/drive_c ~/.wine/drive_c
+mv ~/.wine/drive_c /aux/drive_c/
+ln -s /aux/drive_c ~/.wine/drive_c
 ```
 
 # Configuración
