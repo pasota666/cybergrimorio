@@ -1,0 +1,5 @@
+$ apt-get install steam nvidia-driver-libs:i386 vulkan-tools:i386
+$ mkdir /aux/SteamLinux
+
+mv ~/.steam /aux/SteamLinux/steam
+ln -s /aux/SteamLinux/steam ~/.steam
