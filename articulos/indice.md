@@ -2,7 +2,7 @@
 
 ## Informática
 - **Teoría**
-  - [BIOS y UEFI (WIP)](bios_uefi.md)
+  - [BIOS y UEFI](bios_uefi.md)
   - [Unidades de información (GB y GiB) (WIP)](unidades.md)
 - **Correo**
   - [Aplicar filtros en Gmail (WIP)](gmail.md)
@@ -39,7 +39,7 @@
   - [Dosbox](debian_dosbox.md)
   - [Steam](debian_steam.md)
   - [KDE Secrets (WIP)](debian_kdesecrets.md)
-  - [Emule (WIP)](debian_emule.md)
+  - [Emule/Torrent/Soulseek](debian_emule.md)
   
 ## Windows 11
 - **Instalación**
