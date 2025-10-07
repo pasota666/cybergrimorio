@@ -3,7 +3,7 @@
 ## Informática
 - **Teoría**
   - [BIOS y UEFI](bios_uefi.md)
-  - [Unidades de información (GB y GiB) (WIP)](unidades.md)
+  - [Unidades de información (GB y GiB)](unidades.md)
 - **Correo**
   - [Aplicar filtros en Gmail (WIP)](gmail.md)
 
@@ -23,6 +23,7 @@
   - [Instalar controladores propietarios de NVIDIA](drivers_nvidia.md)
   - [Encriptar la partición boot](boot_crypt.md)
   - [Directorio bin local](home_bin.md)
+  - [Impresoras y escáners](debian_printers.md)
   - [Estado de la batería (WIP)](debian_bateria.md)
   - [Estado del disco (WIP)](debian_disco.md)
   - [Estado de la memoria (WIP)](debian_memoria.md)
@@ -72,3 +73,5 @@
   - [Transferir ISO (WIP)](wii_transferir.md)
   
 ## Cheatsheets
+- Comandos
+- Matemáticas
