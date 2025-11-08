@@ -41,6 +41,7 @@
   - [Steam](debian_steam.md)
   - [yt-dlp](ytdlp.md)
   - [Emule/Torrent/Soulseek](debian_emule.md)
+  - [OneDrive](onedrive.md)
   
 ## Windows 11
 - **Instalación**
