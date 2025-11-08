@@ -51,6 +51,8 @@
   - [Debloating (WIP)](win-debloating.md)
   
 ## Desarrollo
+- **VSCode**
+  - [Instalación y plugins básicos](vscode.md)
 - **Git**
   - [Configuración y uso básico](git.md)
   - [GitHub Pages (WIP)](github_pages.md)
