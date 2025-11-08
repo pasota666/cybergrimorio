@@ -29,6 +29,55 @@ $ git config user.name
 $ git config user.email
 ```
 
+# Como iniciar un repositorio con Git en GitHub
+
+Básicamente, existen dos formas de iniciar un repositorio:
+
+- Método 1: Creando el repositorio en local y luego subiéndolo a GitHub.
+- Método 2: Crear el repositorio en GitHub y luego clonándolo en local (recomendado)
+
+# Método 1: Crear el repositorio en local
+
+Creamos el directorio e iniciamos git:
+
+```
+mkdir mi-proyecto
+cd mi-proyecto
+git init
+```
+
+Esto crea la carpeta ".git" con los datos de Git.
+
+Hacemos el primer commit:
+
+```
+git add .
+git commit -m "Primer commit"
+```
+
+Creamos un repositorio en GitHub y le damos un nombre, por ejemplo mi-proyecto. GitHub nos mostrará las instrucciones para conectar nuestro repositorio local a ese repositorio (una vez hayamos establecido el método de autenticación como se ve más adelante.)
+
+```
+git remote add origin https://github.com/tu-usuario/mi-proyecto.git
+git branch -M main
+git push -u origin main
+```
+
+# Método 2: Clonar el repositorio en local
+
+Con este método, descargaremos el repositorio para poder trabajar con él, después subiremos los cambios. Es también el método que usaremos cuando queramos trabajar con un repositorio ya existente.
+
+Lo primero es crear el repositorio en GitHub:
+- Create New > New Repository
+
+Después lo clonamos en local:
+
+```
+$ git clone <url_del_repositorio.git>
+```
+
+A continuación, usamos la autenticación mediante clave SSH.
+
 # Autenticar mediante una clave SSH
 
 Existen varias maneras de autenticarse en GitHub, quizás la más cómoda sea a través de una clave SSH que identificará tu equipo y no pedirá más login ni passwords una vez esté registrada en el proyecto.
@@ -53,6 +102,7 @@ Copia lo que devuelve "cat" y pégalo en GitHub: Settings → Security > Deploy 
 Dar permiso para hacer "push" y añadirlo.
 
 ## Cambiar remote a SSH
+Entramos al directorio del proyecto (debe tener un subdirectorio .git) y ejecutamos:
 
 ```
 $ git remote set-url origin git@github.com:tu-usuario/tu-repositorio.git
@@ -69,28 +119,6 @@ $ git config --global --add safe.directory /aux/Cutresoft/cybergrimorio
 
 ```
 $ git remote -v
-```
-
-# Como iniciar un repositorio con Git en GitHub
-
-Básicamente, existen dos formas de iniciar un repositorio:
-
-- Método 1: Creando el repositorio en local y luego subiéndolo a GitHub.
-- Método 2: Crear el repositorio en GitHub y luego clonándolo en local.
-
-# Método 1: Crear el repositorio en local
-
-# Método 2: Clonar el repositorio en local
-
-Con este método, descargaremos el repositorio para poder trabajar con él, después subiremos los cambios. Es también el método que usaremos cuando queramos trabajar con un repositorio ya existente.
-
-Lo primero es crear el repositorio en GitHub:
-- Create New > New Repository
-
-Después lo clonamos en local:
-
-```
-$ git clone <url_del_repositorio.git>
 ```
 
 # Comandos básicos para subir el código al repositorio
