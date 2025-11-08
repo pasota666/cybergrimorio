@@ -5,7 +5,7 @@
   - [BIOS y UEFI](bios_uefi.md)
   - [Unidades de información (GB y GiB)](unidades.md)
 - **Correo**
-  - [Aplicar filtros en Gmail (WIP)](gmail.md)
+  - [Aplicar filtros en Gmail](gmail.md)
 
 ## Debian GNU/Linux
 - **Teoría**
