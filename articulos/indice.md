@@ -39,7 +39,7 @@
   - [Wine](debian_wine.md)
   - [Dosbox](debian_dosbox.md)
   - [Steam](debian_steam.md)
-  - [KDE Secrets (WIP)](debian_kdesecrets.md)
+  - [yt-dlp](ytdlp.md)
   - [Emule/Torrent/Soulseek](debian_emule.md)
   
 ## Windows 11
