@@ -58,7 +58,7 @@ git commit -m "Primer commit"
 Creamos un repositorio en GitHub y le damos un nombre, por ejemplo mi-proyecto. GitHub nos mostrará las instrucciones para conectar nuestro repositorio local a ese repositorio (una vez hayamos establecido el método de autenticación como se ve más adelante.)
 
 ```
-git remote add origin https://github.com/tu-usuario/mi-proyecto.git
+git remote set-url origin git@github.com:tu-usuario/tu-repositorio.git
 git branch -M main
 git push -u origin main
 ```
@@ -97,7 +97,7 @@ $ ssh-add ~/.ssh/id_ed25519
 ```
 $ cat ~/.ssh/id_ed25519.pub
 ```
-Copia lo que devuelve "cat" y pégalo en GitHub: Settings → Security > Deploy Keys
+Copia lo que devuelve "cat" y pégalo en la sección SSH de tu perfil: [https://github.com/settings/keys](https://github.com/settings/keys)
 
 Dar permiso para hacer "push" y añadirlo.
 
