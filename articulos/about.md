@@ -6,13 +6,13 @@ Hola, soy la entidad cibernética difusa llamada **pasota666** y este es mi blog
 
 La idea es tomar notas sobre instalación y configuración del ecosistema de aplicaciones que uso:
 
-- **Sistema Operativo**: Debian GNU/Linux.
+- **Sistema Operativo**: Debian GNU/Linux y Windows 11.
 - **Entorno de ventanas**: KDE.
-- **Navegador**: Firefox.
+- **Navegador**: Brave.
 - **Correo**: Thunderbird.
-- **Editor**: Kate.
-- **IDE**: Qt Creator.
-- **Desarrollo**: C++, Qt, Git, Gemix.
+- **Editor**: VSCode.
+- **IDE**: VSCode / Qt Creator.
+- **Desarrollo**: JS, PHP, C++, Qt, Gemix, Shell.
 
 Normalmente, como soy un desastre de persona, tiendo a repetir todas estas notas una y otra vez, pero pasado el tiempo acabo perdiendo los documentos en las fosas abisales de mis discos duros. Por eso tuve la idea de subirlo todo a un blog para no tener que volver a hacerlo.
 

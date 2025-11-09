@@ -28,8 +28,6 @@
   - [Estado del disco (WIP)](debian_disco.md)
   - [Estado de la memoria (WIP)](debian_memoria.md)
   - [Temperaturas de CPU y otros elementos (WIP)](sensors.md)
-
-  
 - **Programas**
   - [KDE](debian_kde.md)
   - [Firefox](debian_firefox.md)
@@ -42,6 +40,7 @@
   - [yt-dlp](ytdlp.md)
   - [Emule/Torrent/Soulseek](debian_emule.md)
   - [OneDrive](onedrive.md)
+  - [Flatpak y Flathub](flatpak.md)
   
 ## Windows 11
 - **Instalación**
