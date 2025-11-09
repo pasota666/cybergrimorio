@@ -9,7 +9,7 @@
 
 ## Debian GNU/Linux
 - **Teoría**
-  - [Proceso de arranque(WIP)](debian_arranque.md)
+  - [Proceso de arranque](debian_arranque.md)
   - [Servicios (WIP)](debian_servicios.md)
   - [Comandos básicos (WIP)](debian_comandos.md)
 - **Instalación**
