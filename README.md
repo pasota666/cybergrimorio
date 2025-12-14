@@ -1,5 +1,5 @@
 # cybergrimorio
-Conjuros, tutoriales, apuntes, notas y recetas informáticas varias.
+Apuntes, tutoriales, notas y chapucillas informáticas.
 
 Accesible desde:
 https://pasota666.github.io/cybergrimorio/
