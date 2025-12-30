@@ -4,6 +4,8 @@
 
 VSCode se puede instalar en snap desde el "Centro de aplicaciones".
 
+Una vez hecha la instalación, es recomendable conectar VSCode a nuestra cuenta de GitHub para usar la IA.
+
 # Paso 2. Plugin Colonize
 
 El plugin "Colonize" contiene varias combinaciones de teclas para  poner un ";" al final de la sentencia:

@@ -82,7 +82,7 @@ El comando "add ." añade todos los ficheros, candidatos para un "commit".
 El comando "commit" guarda los cambios.
 El comando "push" sube los ficheros modificados con el "commit" al repositorio de Github.
 
-NOTA: Si usamos VSCode u otro entorno no es necesario hacer esto, ya que suelen llevar integrado Git.
+**NOTA**: Si usamos VSCode u otro entorno no es necesario hacer esto, ya que suelen llevar integrado Git.
 
 # Como iniciar un repositorio con Git en GitHub
 
@@ -124,7 +124,7 @@ Verificamos con:
 git remote -v
 ```
 
-NOTA: Si estamos usando un directorio de red o compartido, Git puede decir que no es un directorio seguro, pero podemos saltar esa protección haciendo:
+**NOTA**: Si estamos usando un directorio de red o compartido, Git puede decir que no es un directorio seguro, pero podemos saltar esa protección haciendo:
 
 ```bash
 git config --global --add safe.directory /ruta/al/directorio
