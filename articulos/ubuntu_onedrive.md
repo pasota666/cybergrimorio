@@ -39,6 +39,6 @@ onedrive --synchronize --verbose
 Si activamos el servicio, la sincronización será automática cada vez que cambiemos un fichero.
 
 ```bash
-$ systemctl --user enable onedrive
-$ systemctl --user start onedrive
+systemctl --user enable onedrive
+systemctl --user start onedrive
 ```

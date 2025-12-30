@@ -1,6 +1,6 @@
 # Acerca de esta web
 
-![Image](img/pasota666.jpeg)
+![Image](img/pasota.jpeg)
 
 Hola, soy la entidad cibernética difusa llamada **pasota666** y este es mi blog de apuntes, notas y tutoriales sobre informática que probablemente no interesen a nadie.
 
