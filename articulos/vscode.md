@@ -1,17 +1,10 @@
 # VSCode
 
-# Paso 1. Bajar el .deb
+# Paso 1. Instalar
 
-VSCode no está en los repositorios, hay que bajar el paquete .deb desde su web (code_1.105.1-1760482543_amd64.deb)
+VSCode se puede instalar en snap desde el "Centro de aplicaciones".
 
-# Paso 2. Instalación
-
-```
-sudo apt install ./code_1.105.1-1760482543_amd64.deb
-sudo apt update
-```
-
-# Paso 3. Plugin Colonize
+# Paso 2. Plugin Colonize
 
 El plugin "Colonize" contiene varias combinaciones de teclas para  poner un ";" al final de la sentencia:
 
