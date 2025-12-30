@@ -10,6 +10,7 @@
   - [Instalación y configuración básica de Ubuntu](ubuntu_instalacion.md)
 - **Programas**
   - [OneDrive](ubuntu_onedrive.md)
+  - [Thunderbird](ubuntu_thunderbird.md)
 
 ## Desarrollo
 - **VSCode**

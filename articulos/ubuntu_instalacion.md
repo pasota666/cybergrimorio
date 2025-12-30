@@ -39,7 +39,7 @@ Reiniciar (snap requiere reiniciar).
 ## Paso 6. Configuración básica del entorno
 
 Suelo retocar los siguientes aspectos del sistema:
-- Activar el **modo oscuro**.
+- Activar el modo oscuro.
 - Chequear que Ubuntu no activa una salida VGA como pantalla (pasa en algunos portátiles) y si lo hace, desactivarla.
 - Energía: rendimiento. No oscurecer la pantalla. Apagarla 5 min.
 - Privacidad y seguridad > Bloqueo de pantalla > Bloqueo de pantalla automático (off)
